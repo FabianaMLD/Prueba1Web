@@ -23,6 +23,7 @@ h1, h2, h3, h4, h5, h6
   margin: 0 0 15px 0;
   padding: 15px 0 5px 0;}
 
+
 h2
 { font: normal 300% 'century gothic', arial, sans-serif;
   color: #A4AA04;}
@@ -38,7 +39,7 @@ h4, h5, h6
 
 h5, h6
 { font: italic 95% arial, sans-serif;
-  color: #000;}
+  color: rgb(255, 255, 255);}
 
 h6
 { color: #362C20;}
@@ -114,17 +115,17 @@ ol li
 
 #logo_text h1, #logo_text h1 a, #logo_text h1 a:hover 
 { padding: 22px 0 0 0;
-  color: #777;
+  color: rgb(248, 244, 0);
   letter-spacing: 0.1em;
   text-decoration: none;}
 
 #logo_text h1 a .logo_colour
-{ color: #999;}
+{ color: rgb(255, 0, 0);}
 
 #logo_text h2
 { font-size: 100%;
   padding: 4px 0 0 0;
-  color: #CDC090;}
+  color: #09ff00;}
 
 #logo #contact_details
 { position: absolute; 
@@ -222,10 +223,14 @@ ul#menu li a:hover, ul#menu li.selected a, ul#menu li.selected a:hover
   padding: 0 0 4px 25px;
   line-height: 1.5em;}
 
+  .carousel-item {
+    height: 400px;
+    margin: 10px;  }
+
 #footer
-{ width: 878px;
+{ width: 1000px;
   font: normal 100% "lucida sans unicode";
-  height: 33px;
+  height: 50px;
   padding: 24px 0 5px 0;
   text-align: center; 
   background: #555 url(menu.png) repeat-x;
