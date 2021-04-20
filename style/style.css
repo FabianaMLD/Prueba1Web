@@ -5,10 +5,11 @@ html
 { margin: 0;
   padding: 0;}
 
-body
-{ font: normal .80em 'trebuchet ms', arial, sans-serif;
+body{
+  font: normal .80em 'trebuchet ms', arial, sans-serif;
   background: #F0EFE2;
-  color: rgb(0, 0, 0);}
+  color: #777;
+}
 
 p
 { padding: 0 0 20px 0;
@@ -102,6 +103,11 @@ ol li
   position: relative;
   height: 200px;
   background: url(logo.jpg) no-repeat;}
+
+  #frase {
+  position: relative;
+  image-orientation: from-image;
+  }
 
 #logo #logo_text 
 { position: absolute; 
