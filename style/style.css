@@ -224,7 +224,7 @@ ul#menu li a:hover, ul#menu li.selected a, ul#menu li.selected a:hover
 
   .carousel-item {
     height: 400px;
-    margin: 10px;}
+    margin: 0px auto;}
 
 #footer
 {
