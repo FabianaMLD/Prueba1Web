@@ -104,11 +104,6 @@ ol li
   height: 200px;
   background: url(logo.jpg) no-repeat;}
 
-  #frase {
-  position: relative;
-  image-orientation: from-image;
-  }
-
 #logo #logo_text 
 { position: absolute; 
   top: 25px;
