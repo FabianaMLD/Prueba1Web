@@ -250,3 +250,6 @@ margin-right: auto;}
 img{
   width: 500px;
 }
+#center{
+  position: relative;
+}
