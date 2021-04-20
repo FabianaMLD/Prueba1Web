@@ -42,7 +42,8 @@ h5, h6
   color: rgb(255, 255, 255);}
 
 h6
-{ color: #362C20;}
+{ color: #ff0000;
+font-size: large;}
 
 a, a:hover
 { outline: none;
@@ -223,18 +224,20 @@ ul#menu li a:hover, ul#menu li.selected a, ul#menu li.selected a:hover
 
   .carousel-item {
     height: 400px;
-    margin: 10px;  }
+    margin: 10px;}
 
 #footer
-{ width: 1000px;
-  font: normal 100% "lucida sans unicode";
-  height: 50px;
-  padding: 24px 0 5px 0;
-  text-align: center; 
-  background: #555 url(menu.png) repeat-x;
-  color: #CDC090;
-  text-transform: uppercase;
-  letter-spacing: 0.1em;}
+{
+font: normal 100% "lucida sans unicode";
+height: 60px;
+padding: 24px 0 5px 0;
+text-align: center;
+background: #555 url(menu.png) repeat-x;
+color: #CDC090;
+text-transform: uppercase;
+letter-spacing: 0.1em;
+margin-left: auto;
+margin-right: auto;}
 
 #footer a
 { color: #FFF;
